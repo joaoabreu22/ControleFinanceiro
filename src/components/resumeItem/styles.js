@@ -25,3 +25,23 @@ export const Container = styled.div`
     display: none;
   }
 `
+export const Header = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+`
+
+export const HeaderTitle = styled.p`
+  font-size: 20px;
+  `
+export const Total = styled.span`
+  font-size: 20px;
+  font-weight: bold;
+`
