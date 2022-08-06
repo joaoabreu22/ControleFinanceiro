@@ -42,7 +42,7 @@ export const Header = styled.header`
 export const HeaderTitle = styled.p`
   font-size: 20px;
   font-weight: bold;
-  `
+`
 export const Total = styled.span`
   font-size: 20px;
   font-weight: bold;

@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const Container = styled.div` 
+export const Container = styled.div`
   max-width: 1120px;
   margin: 20px auto;
   width: 98%;
   background-color: #fff;
-  box-shadow: 0px px 5px #ccc;
+  box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
@@ -17,12 +17,12 @@ export const Container = styled.div`
   }
 `
 
-export const InputContent = styled.div` 
+export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
 `
 
-export const Label = styled.label``;
+export const Label = styled.label``
 
 export const Input = styled.input`
   outline: none;
@@ -36,8 +36,9 @@ export const RadioGroup = styled.div`
   display: flex;
   align-items: center;
 
-  input { 
+  input {
     margin-left: 20px;
+    margin-right: 5px;
     accent-color: black;
     margin-top: 0;
   }
