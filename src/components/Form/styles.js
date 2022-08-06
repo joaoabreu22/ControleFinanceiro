@@ -48,7 +48,15 @@ export const Button = styled.button`
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
   cursor: pointer;
-  color: white;
-  background-color: teal;
+  color: black;
+  font-weight: bold;
+  background-color: #F0BB0C;
+  transition: all ease 0.2s;
+  &:hover{
+    background-color: #9CF034;
+  }
+  
 `
+

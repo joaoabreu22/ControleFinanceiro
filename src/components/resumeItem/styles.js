@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #fff;
+  box-shadow: 2px 2px 2px gray;
   border-radius: 5px;
   padding: 5px 15px;
   width: 30%;
@@ -14,11 +15,11 @@ export const Container = styled.div`
   }
 
   p {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   span {
-    font-size: 20px;
+    font-size: 20px;    
   }
 
   svg {
